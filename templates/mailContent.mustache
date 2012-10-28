@@ -1,0 +1,49 @@
+{{#mailContent}}
+
+    <h2>
+        <a href="#" class="details">
+            <span class="bold">1-{{mailContent.important.length}}</span> з <span class="bold">{{mailContent.importantCount}}</span>
+            <i class="icon i-arrowOptions"></i>
+        </a>
+        <i class="icon i-arrowDown"></i>Важливі
+    </h2>
+    {{#important}}
+        <article>
+            <div class="controls">
+                <input type="checkbox"/>
+                <div class="star {{#starActive}}active{{/starActive}}"></div>
+                <div class="priority {{#priorityActive}}active{{/priorityActive}}"></div>
+            </div>
+            <div class="sender">{{sender}}</div>
+            <div class="date">{{date}}</div>
+            <div class="mailContent">
+                <h3>{{title}}</h3>
+                <p>{{description}}</p>
+            </div>
+        </article>
+    {{/important}}
+
+    <h2>
+        <a href="#" class="details">
+            <span class="bold">1-{{mailContent.inbox.length}}</span> з <span class="bold">{{mailContent.inboxCount}}</span>
+            <i class="icon i-arrowOptions"></i>
+        </a>
+        <i class="icon i-arrowDown"></i>Усе інше
+    </h2>
+
+    {{#inbox}}
+        <article>
+            <div class="controls">
+                <input type="checkbox"/>
+                <div class="star {{#starActive}}active{{/starActive}}"></div>
+                <div class="priority {{#priorityActive}}active{{/priorityActive}}"></div>
+            </div>
+            <div class="sender">{{sender}}</div>
+            <div class="date">{{date}}</div>
+            <div class="mailContent">
+                <h3>{{title}}</h3>
+                <p>{{description}}</p>
+            </div>
+        </article>
+    {{/inbox}}
+{{/mailContent}}

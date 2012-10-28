@@ -1,0 +1,45 @@
+{
+    "mainMenu" : [
+        {"title": "+Ви", "url": "http://htmlbook.ru/faq/kak-otkryt-ssylku-v-novom-okne"},
+        {"title": "Пошук", "url": "http://htmlbook.ru/faq/kak-otkryt-ssylku-v-novom-okne"},
+        {"title": "Зображення", "url": "http://htmlbook.ru/faq/kak-otkryt-ssylku-v-novom-okne"},
+        {"title": "YouTube", "url": "http://htmlbook.ru/faq/kak-otkryt-ssylku-v-novom-okne"},
+        {"title": "Новини", "url": "http://htmlbook.ru/faq/kak-otkryt-ssylku-v-novom-okne"},
+        {"title": "Gmail", "url": "http://htmlbook.ru/faq/kak-otkryt-ssylku-v-novom-okne", "active":true},
+        {"title": "Диск", "url": "http://htmlbook.ru/faq/kak-otkryt-ssylku-v-novom-okne"},
+        {"title": "Календар", "url": "http://htmlbook.ru/faq/kak-otkryt-ssylku-v-novom-okne"},
+        {"title": "Більше", "url": "http://htmlbook.ru/faq/kak-otkryt-ssylku-v-novom-okne"}
+    ],
+    "googleLogoUrl": "img/Googlelogo.png",
+    "userAbout":     "merdissimo@gmail.com",
+    "gmailLogo":     "Gmail",
+
+    "navigation": {
+        "buttonWrote":"НАПИСАТИ",
+        "aside": [
+            {"title": "Вхідні", "url": "#","selected": true, "unread": true },
+            {"title": "Важливі", "url": "#" },
+            {"title": "Надіслані", "url": "#" },
+            {"title": "Чернетки", "url": "#" },
+            {"title": "Спам", "url": "#","unread": true },
+            {"title": "Особисті", "url": "#" },
+            {"title": "Більше", "url": "#" }
+        ]
+    },
+    "mailContent":{
+        "importantCount": 6,
+        "inboxCount" : 40,
+
+        "important" : [
+            {"sender": "mIvankiv", "date": "21 вер.", "title":"Hello", "description":"We know that having a healthy and well-performing website is important to you."},
+            {"starActive": true, "priorityActive": true, "sender": "mIvankiv", "date": "21 вер.", "title":"Если вам понравились материалы сайта, вы можете поддержать сайт, купив", "description":"We know."}
+        ],
+        "inbox" : [
+            {"sender": "mIvankiv", "date": "21 вер.", "title":"", "description":"We know that having a healthy and well-performing website is important to you."},
+            {"sender": "mIvankiv", "date": "21 вер.", "title":"", "description":"We know that having a healthy and well-performing website is important to you."},
+            {"sender": "mIvankiv", "date": "21 вер.", "title":"Hello", "description":"We know that having a healthy and well-performing website is important to you."},
+            {"sender": "mIvankiv", "date": "21 вер.", "title":"Если вам понравились материалы сайта, вы можете поддержать сайт, купив", "description":"We know."},
+            {"sender": "mIvankiv", "date": "21 вер.", "title":"", "description":"We know that having a healthy and well-performing website is important to you."}
+        ]
+    }
+}

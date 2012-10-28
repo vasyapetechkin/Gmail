@@ -1,0 +1,12 @@
+<button id="buttonWrote">{{navigation.buttonWrote}}</button>
+<ul id="aside">
+    {{#navigation.aside}}
+        <li class="{{#selected}}selected{{/selected}} {{#unread}}unread{{/unread}}">
+            <a href='#'>{{title}}</a>
+        </li>
+    {{/navigation.aside}}
+</ul>
+<footer>
+    <i class="chat"></i>
+    <i class="inviteFriends"></i>
+</footer>

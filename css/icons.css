@@ -1,0 +1,31 @@
+i.icon                          { background-image:url("img/sprite_black2.png"); display:inline-block; height:17px;
+                                  width:17px; position:relative; top: 4px; }
+i.icon.i-refresh                { background-position: 40px 82px; }
+i.icon.i-preference             { background-position: 103px 82px; }
+i.icon.i-select                 { border: 1px solid #ccc; background: none; height:11px; width:11px; }
+
+.star                           { background:url("img/controls.png") no-repeat scroll -4px -57px transparent; top: 3px;
+                                  display:inline-block; height:16px; position:relative; width:16px; margin:0 5px; }
+.star:hover                     { background-position: -4px -75px; }
+.star:active,
+.star.active                    { background-position: -25px -57px; }
+.star.active:hover              { background-position: -24px -75px; }
+
+.priority                       { background:url("img/controls.png") no-repeat scroll -4px -1px transparent; top: 3px;
+                                  margin:0 0 0 5px; display:inline-block; height:16px; position:relative; width:16px;
+                                }
+.priority:hover                 { background-position: -4px -20px; }
+.priority:active,
+.priority.active                { background-position: -5px -39px; }
+.priority.active:hover          { background-position: -43px -20px; }
+
+.icon.i-arrowDown               { background: transparent url("img/arrow_down.png") no-repeat scroll left center; }
+
+.icon.i-arrowOptions            { background: transparent url("img/mail.google.com.png") no-repeat scroll -78px -118px;
+                                  cursor: pointer;
+                                }
+.icon.i-arrowOptions:hover      { background-position: -97px -118px; }
+.mailNavigation .chat           { background: transparent url("img/sprite_black2.png") no-repeat scroll -21px 0px;
+                                  display:inline-block; cursor: pointer; height: 21px; width: 21px; }
+.mailNavigation .inviteFriends  { background: transparent url("img/more_gadgets.png") no-repeat scroll center center;
+                                  display:inline-block; cursor: pointer; height: 21px; width: 21px; }

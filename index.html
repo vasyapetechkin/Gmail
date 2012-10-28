@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>Gmail number five</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/mail-list.css" />
+    <link rel="stylesheet" type="text/css" href="css/aside.css" />
+    <link rel="stylesheet" type="text/css" href="css/icons.css" />
+
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="javascript/mustache.js"></script>
+    <script src="javascript/common.js"></script>
+
+    <script>
+         $(function(){
+            renderPage(
+                    "data/main.json",
+                    "templates/header.mustache",
+                    $("#header"));
+
+             renderPage(
+                    "data/main.json",
+                    "templates/navigation.mustache",
+                    $(".mailNavigation")
+            )
+
+             renderPage(
+                     "data/main.json",
+                     "templates/mailContent.mustache",
+                     $(".mailContentItems")
+             )
+
+             renderPage(
+                     "data/main.json",
+                     "templates/footer.mustache",
+                     $("#mailFooter")
+             )
+        });
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+    <div class="mailNavigation"></div>
+    <div class="mailList">
+        <div class="mailContentItems"></div>
+        <footer id="mailFooter"></footer>
+    </div>
+
+</body>
+</html>
+
+
+

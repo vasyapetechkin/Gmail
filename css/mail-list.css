@@ -1,0 +1,35 @@
+/* Mail list */
+.mailList                                 { position: absolute; overflow: auto; top: 164px; left: 230px; right: 0; bottom: 0;}
+
+.mailList h2                              { font-size:15px; font-weight: normal; margin: 0 50px 0 0; padding: 12px 0;
+                                            border-bottom: 1px solid #E5E5E5;
+                                          }
+.mailList h2 .details                     { color: #222222; font-size: 13px; float: right; }
+.mailList .icon i-arrowDown               {  }
+.mailList .mailSeparatorCounter           { font-size:13px; float: right; }
+.mailList .mailSeparatorCounter a         { color:#222222; cursor:pointer; text-decoration: none; }
+.mailList .mailSeparatorCounter a:hover   { text-decoration: underline; }
+.mailList article                         { background: #f5f5f5; font: 13px/32px arial,sans-serif; color:#222222;
+                                            margin-right: 50px;
+                                          }
+
+.mailList article                         { overflow: hidden; height:31px; padding: 4px 0; border-bottom: 1px solid #E5E5E5;}
+.mailList article .controls               { float: left; width: 85px; }
+.mailList .controls input[type="checkbox"] { margin: 0 0 0 8px; }
+
+.mailList article .sender                 { float: left; width: 105px; }
+
+.mailList .mailContent h3                 { display: inline; font-size: 13px; font-weight:normal; }
+.mailList .mailContent h3:after           { content: " - "; font-weight: normal; color: #777; }
+
+.mailList .mailContent p                  { display: inline; color: #777777; }
+
+
+.mailList article .date                   { float: right; width: 65px;}
+
+.mailList>footer                          { font-size: 11px; color: #666666; margin: 15px 0 0 0; }
+.mailList>footer p                        { margin: 0; }
+.mailList>footer a                        { color: #666666; }
+.mailList .mailStorage                    { float: left; }
+.mailList .mailLastSession                { float: right; text-align: right; margin: 0 50px 0 0; }
+.mailList .termAndCondition               { text-align: center; }

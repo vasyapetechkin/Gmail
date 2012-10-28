@@ -1,0 +1,27 @@
+/* Mails menu */
+.mailNavigation                               { position: absolute; overflow: auto; top: 170px; width: 200px; bottom: 0;
+                                                margin:8px 0 0;
+                                              }
+
+.mailNavigation #buttonWrote                  { min-width: 97px; margin: 0 0 10px 40px; background: #D14836; border: 1px solid transparent;
+                                               display: block; color: #FFFFFF; text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+                                               text-transform: uppercase; border-radius: 2px 2px 2px 2px; cursor: default; font-size: 11px;
+                                               font-family: arial,sans-serif; font-weight: bold; height: 27px; line-height: 27px;
+                                               outline: 0 none; padding: 0 8px; text-align: center; white-space: nowrap;
+                                              }
+
+.mailNavigation #aside                        { margin: 0; padding: 0;}
+
+.mailNavigation #aside li                     { list-style: none;}
+
+.mailNavigation #aside li.selected            { border-left:2px solid red;}
+
+.mailNavigation #aside li.unread a            { font-weight: bold;}
+
+.mailNavigation #aside li a                   { color:#222222; display:block; font:13px arial,sans-serif; margin-left:18px; padding:5px 0 5px 20px; text-decoration:none; width:162px;
+}
+
+.mailNavigation #aside       li:hover a       { background: #E5E5E5; }
+.mailNavigation #aside       li.selected a    { color: #DD4B39 ; margin-left: 16px; }
+
+.mailNavigation footer                        { position: absolute; width: 160px; left:40px; bottom: 0; text-align: center;}

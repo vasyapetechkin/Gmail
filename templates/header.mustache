@@ -1,0 +1,25 @@
+<div class="mainMenu">
+    {{#mainMenu}}
+        <a href="{{url}}" target="_blank" class="{{#active}}selected{{/active}}">{{title}}</a>
+    {{/mainMenu}}
+</div>
+
+<section class="mainSearch">
+    <img id="googleLogo" src="{{googleLogoUrl}}">
+    <form>
+        <input id="searchForm" type="text" />
+        <button id="buttonSearch"><i class="search"></i></button>
+    </form>
+    <p class="userAbout">{{userAbout}}</p>
+</section>
+
+<div class="toolbar">
+    <h2 id="gmailLogo">{{gmailLogo}}</h2>
+    <form class="toolbutton">
+        <button><i class="icon i-select"></i></button>
+        <button><i class="icon i-refresh"></i></button>
+        <button>More</button>
+    </form>
+
+    <button id="buttonInterface"><i class="icon i-preference"></i> </button>
+</div>
